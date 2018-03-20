@@ -64,6 +64,7 @@ I'll keep updating this list as I learn more myself and feel free to contribute 
 * Is there an allocated budget for learning materials or attending conferences? (Shows company priorities and employee value)
 * Is there a formal performance review process and how often does it happen?
 * Do we have monthly / weekly catchups? (If no catchups, suggest if you could have regular catch ups)
+* What is a Closure?
 
 # :gear: General Techniques
 
@@ -74,3 +75,15 @@ I'll keep updating this list as I learn more myself and feel free to contribute 
 Some other repositories can be found with interview questions:
 
 * [Front-end job interview questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+
+# Code snippet
+1. What will be the output of the following code?
+```javasript
+var counter = 1;
+var output = (function(){
+ delete counter;
+ return counter;
+})();
+console.log(output);
+
+```
